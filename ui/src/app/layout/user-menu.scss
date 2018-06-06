@@ -15,6 +15,10 @@
  */
 div.tb-user-info {
   line-height: 1.5;
+  .layout-column {
+    display: flex;
+    justify-content: center;
+  }
   span {
     text-transform: none;
     text-align: left;

@@ -38,7 +38,8 @@
 				<md-button ng-show="isEdit" ng-disabled="$root.loading || theForm.$invalid || !theForm.$dirty"
 							 class="tb-btn-header md-accent md-hue-2 md-fab md-fab-bottom-right"
 							 aria-label="{{ 'action.apply' | translate }}"
-							 ng-click="detailsApply()">
+							 ng-click="detailsApply()"
+							 style="background-color: #3890ff">
 					  <md-tooltip md-direction="top">
 						  {{ 'action.apply-changes' | translate }}
 					  </md-tooltip>

@@ -38,7 +38,7 @@ export default function AuditLogRoutes($stateProvider) {
                 pageTitle: 'audit-log.audit-logs'
             },
             ncyBreadcrumb: {
-                label: '{"icon": "track_changes", "label": "audit-log.audit-logs"}'
+                label: '{"icon": "track_changes", "label": "audit-log.audit-logs", "translate": "true"}'
             }
         });
 }

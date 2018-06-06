@@ -45,7 +45,7 @@ a {
 }
 
 a:hover, a:focus {
-  border-bottom: 1px solid #4054B2;
+  border-bottom: 1px solid rgba(221, 221, 221, 0.3);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -622,6 +622,10 @@ section.tb-footer-buttons {
 
 .tb-footer-buttons .tb-btn-footer.ng-hide {
   @include animation(tbMoveToBottomFade .3s ease both);
+}
+
+.material-icons {
+  font-size: 20px;
 }
 
 ._md-toast-open-bottom .tb-footer-buttons {
